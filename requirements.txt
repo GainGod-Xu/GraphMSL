@@ -93,7 +93,7 @@ future==0.18.2
 gast==0.2.2
 gevent==1.4.0
 gitdb==4.0.10
-GitPython==3.1.31
+GitPython==3.1.41
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455532931/work
 google-auth==1.4.2
