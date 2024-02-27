@@ -37,8 +37,8 @@ class GraphMLModel(nn.Module):
         # Compute the outer product of W and its transpose
         WW_transpose = torch.matmul(self.decomposed_MahMatrix, self.decomposed_MahMatrix.transpose(1, 0))
         # Compute the expression (xi - xj)^T · (W W^T) · (xi - xj)
-        graph3dMeric  = torch.einsum('ijk,kl,ijl->ij', xi_minus_xj_transpose, WW_transpose, xi_minus_xj)
-        graph3dMeric  =  F.softmax(graph3dMeric, dim=-1)
+        graph3dMeric = torch.einsum('ijk,kl,ijl->ij', xi_minus_xj_transpose, WW_transpose, xi_minus_xj)
+        graph3dMeric = F.softmax(graph3dMeric, dim=-1)
 
         # compute Logits
         graph2dLogits = self.projection_graph(graph3dMeric)
