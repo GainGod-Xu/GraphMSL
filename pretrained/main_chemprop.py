@@ -1,7 +1,6 @@
 import pandas as pd
 from Utils.GraphMLConfig import GraphMLConfig
 from Utils.BuildDatasetLoader import build_dataset_loader
-from GraphModels.NG import GNNNodeEncoder, GNNGraphEncoder
 from GraphMLModels.GraphMLModel import GraphMLModel
 import torch
 from Utils.TrainEpoch import train_epoch
