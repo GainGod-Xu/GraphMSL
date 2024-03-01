@@ -31,16 +31,19 @@ def read(sdf):
     mol_supplier = Chem.SDMolSupplier(sdf, removeHs=False)
     for idx, mol in enumerate(mol_supplier, start=0):
         if mol:
-            props = mol.GetPropsAsDict()
-            #print("Properties of molecule", idx)
-            cid = "{:08d}".format(props['PUBCHEM_COMPOUND_CID'])
-            conf_id = props['PUBCHEM_CONFORMER_ID']
-            id = str(cid) + "_" + str(conf_id)
-            sasa_results = calc_freeSASA(mol)
-            sasa_tensor = torch.tensor(sasa_results)
-            file_path = os.path.join(folder_name, f'{id}.pickle')
-            with open(file_path, 'wb') as f:
-                pickle.dump(sasa_tensor, f)
+            try:
+                props = mol.GetPropsAsDict()
+                #print("Properties of molecule", idx)
+                cid = "{:08d}".format(props['PUBCHEM_COMPOUND_CID'])
+                conf_id = props['PUBCHEM_CONFORMER_ID']
+                id = str(cid) + "_" + str(conf_id)
+                sasa_results = calc_freeSASA(mol)
+                sasa_tensor = torch.tensor(sasa_results)
+                file_path = os.path.join(folder_name, f'{id}.pickle')
+                with open(file_path, 'wb') as f:
+                    pickle.dump(sasa_tensor, f)
+            except Exception as e:
+                print(f"Error processing molecule {idx}: {e}")
 
 
 def main():
