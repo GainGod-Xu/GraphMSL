@@ -368,7 +368,7 @@ torchvision==0.13.0
 tornado==6.2
 tqdm==4.66.1
 traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
-transformers==4.30.2
+transformers==4.38.0
 typed-argument-parser==1.8.0
 typed-ast==1.4.3
 typer==0.7.0
