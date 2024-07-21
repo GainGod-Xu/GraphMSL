@@ -1,6 +1,6 @@
 # ICML 2024 Submission - Graph Multi-Similarity Learning for Molecular Property Prediction
 
-This repository contains the code and supplementary materials for the paper submitted to ICML 2024 titled "Graph Multi-Similarity Learning for Molecular Property Prediction". 
+This repository contains the code and supplementary materials for the paper, titled "Graph Multi-Similarity Learning for Molecular Property Prediction". The paper just gets accepted in ICML 2024 AI for Science Workshop (Poster).
 
 ## Abstract
 
