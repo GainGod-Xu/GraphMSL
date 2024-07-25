@@ -354,7 +354,7 @@ tokenizers==0.13.3
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
 toolz @ file:///tmp/build/80754af9/toolz_1636545406491/work
-torch==1.12.0
+torch==2.2.0
 torch-cluster==1.6.1
 torch-geometric==2.3.1
 torch-geometric-temporal==0.0.7
