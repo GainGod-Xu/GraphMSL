@@ -101,7 +101,7 @@ google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
 googledrivedownloader==0.4
 greenlet==0.4.15
-grpcio==1.37.1
+grpcio==1.53.2
 h5py==2.10.0
 hde==0.1.0
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
