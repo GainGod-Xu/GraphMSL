@@ -140,7 +140,7 @@ jupyterlab @ file:///tmp/abs_12f3h01vmy/croots/recipe/jupyterlab_1658907535764/w
 jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
 jupyterlab-server @ file:///opt/conda/conda-bld/jupyterlab_server_1650462180599/work
 jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
-Keras==2.1.6
+Keras==2.13.1
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 keyring==18.0.0
