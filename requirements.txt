@@ -117,7 +117,7 @@ importlib-metadata==4.12.0
 importlib-resources @ file:///tmp/build/80754af9/importlib_resources_1625135880749/work
 iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
 ipykernel==6.15.2
-ipython==7.34.0
+ipython==8.10.0
 ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
 ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1634143127070/work
 isodate==0.6.0
