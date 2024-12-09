@@ -50,7 +50,7 @@ setup(
         "tqdm>=4.45.0",
         "typed-argument-parser>=1.6.1",
         "rdkit>=2020.03.1.0",
-        "scipy<1.11 ; python_version=='3.7'",
+        "scipy<1.12 ; python_version=='3.7'",
         "descriptastorus<2.6.1 ; python_version=='3.7'",
         "scipy>=1.9 ; python_version=='3.8'",
         "descriptastorus>=2.6.1 ; python_version=='3.8'",
