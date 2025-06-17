@@ -227,7 +227,7 @@ ppft @ file:///home/conda/feedstock_root/build_artifacts/ppft_1604303397794/work
 preshed==3.0.9
 prometheus-client @ file:///tmp/abs_d3zeliano1/croots/recipe/prometheus_client_1659455100375/work
 prompt-toolkit==3.0.31
-protobuf==3.17.0
+protobuf==4.25.8
 psmpy==0.3.2
 psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
