@@ -34,7 +34,7 @@ bitarray==1.0.1
 bkcharts==0.2
 bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
 blis==0.7.11
-bokeh==1.3.4
+bokeh==3.8.2
 boto==2.49.0
 Bottleneck==1.2.1
 brotlipy==0.7.0
