@@ -365,7 +365,7 @@ torchaudio==0.12.1
 torchmetrics==0.11.4
 torchsummary==1.5.1
 torchvision==0.13.0
-tornado==6.2
+tornado==6.5.5
 tqdm==4.66.1
 traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
 transformers==4.30.2
