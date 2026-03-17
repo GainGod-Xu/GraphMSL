@@ -235,7 +235,7 @@ py @ file:///opt/conda/conda-bld/py_1644396412707/work
 py-cpuinfo==9.0.0
 py3nvml==0.2.5
 py4j==0.10.9.7
-pyasn1==0.4.8
+pyasn1==0.6.3
 pyasn1-modules==0.2.8
 pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
 pycosat==0.6.3
