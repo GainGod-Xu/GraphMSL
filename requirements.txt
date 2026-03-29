@@ -266,7 +266,7 @@ pytest-doctestplus==0.4.0
 pytest-openfiles @ file:///home/ktietz/src/ci_ipy2/pytest-openfiles_1612521034591/work
 pytest-remotedata==0.3.2
 python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytorch-lightning==1.9.5
+pytorch-lightning==2.4.0
 pytorch-wavelets==1.2.2
 pytz @ file:///opt/conda/conda-bld/pytz_1654762638606/work
 PyWavelets==1.3.0
