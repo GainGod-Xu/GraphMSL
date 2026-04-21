@@ -152,7 +152,7 @@ lightning-utilities==0.9.0
 llvmlite==0.39.1
 locket @ file:///opt/conda/conda-bld/locket_1652903118915/work
 lqrt==0.3.3
-lxml==4.4.1
+lxml==6.1.0
 Markdown==3.3.4
 MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
 matplotlib==3.1.3
